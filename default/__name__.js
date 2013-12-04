@@ -19,8 +19,8 @@ goog.require('{name}.data.Stats');
 
 // entrypoint
 {name}.start = function(){
-    {name}.stats = new {name}.data.Resources();
-    {name}.stats = new {name}.data.Tutorial();
+    {name}.resources = new {name}.data.Resources();
+    {name}.tutorial = new {name}.data.Tutorial();
     {name}.stats = new {name}.data.Stats();
 
     var director = new lime.Director(document.body,1024,768);
