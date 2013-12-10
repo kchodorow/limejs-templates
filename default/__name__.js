@@ -12,7 +12,7 @@ goog.require('lime.animation.FadeTo');
 goog.require('lime.animation.ScaleTo');
 goog.require('lime.animation.MoveTo');
 
-goog.require('{name}.lib');
+goog.require('lib');
 goog.require('{name}.data.Resources');
 goog.require('{name}.data.Tutorial');
 goog.require('{name}.data.Stats');
