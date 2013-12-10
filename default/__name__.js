@@ -25,7 +25,9 @@ goog.require('{name}.data.Stats');
 
     var director = new lime.Director(document.body,1024,768);
     var scene = new lime.Scene();
-    
+    var layer = new lime.Layer().setSize(WIDTH, HEIGHT).setAnchorPoint(.5, .5)
+	.setPosition(WIDTH/2, HEIGHT/2);
+
     var target = new lime.Layer().setPosition(512,384);
     var circle = new lime.Circle().setSize(150,150).setFill(255,150,0);
     var lbl = new lime.Label().setSize(160,50).setFontSize(30).setText('TOUCH ME!');
